@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "title": "Complete Web Development Bootcamp",
+    "instructor": "John Doe",
+    "duration": "20 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Learn full-stack web development from scratch.",
+    "image": "https://nfacademy.id/wp-content/uploads/2025/02/bootcamp-web-development-1-544X330px.webp",
+    "category": "Development"
+  },
+
+  {
+    "id": 2,
+    "title": "Advanced JavaScript Mastery",
+    "instructor": "Sarah Smith",
+    "duration": "15 hours",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "description": "Deep dive into advanced JavaScript concepts and patterns.",
+    "image": "https://d502jbuhuh9wk.cloudfront.net/courses/636a0431e4b00641d2596354/636a0431e4b00641d2596354_scaled_cover.jpg?v=2",
+    "category": "Development"
+  },
+  {
+    "id": 3,
+    "title": "React JS Complete Guide",
+    "instructor": "Michael Lee",
+    "duration": "18 hours",
+    "rating": 4.9,
+    "level": "Intermediate",
+    "description": "Build modern web apps using React and its ecosystem.",
+    "image": "https://miro.medium.com/v2/resize:fit:836/1*pNkJpx4F4Qyinj1iFqiXhA.png",
+    "category": "Development"
+  },
+  {
+    "id": 4,
+    "title": "Node.js & Express API Development",
+    "instructor": "David Miller",
+    "duration": "14 hours",
+    "rating": 4.6,
+    "level": "Intermediate",
+    "description": "Learn to build RESTful APIs using Node.js and Express.",
+    "image": "https://i.ytimg.com/vi/x4u9KGAOZ2o/maxresdefault.jpg",
+    "category": "Development"
+  },
+  {
+    "id": 5,
+    "title": "Python for Beginners",
+    "instructor": "Emily Davis",
+    "duration": "12 hours",
+    "rating": 4.5,
+    "level": "Beginner",
+    "description": "Start coding in Python with hands-on examples.",
+    "image": "https://pythongeeks.org/wp-content/uploads/2023/01/python-tutorial-for-beginners%E2%80%93learn-python.webp",
+    "category": "Programming"
+  },
+  {
+    "id": 6,
+    "title": "Django Full Stack Development",
+    "instructor": "Chris Brown",
+    "duration": "22 hours",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "description": "Build full-stack web applications using Django.",
+    "image": "https://www.cssmayo.com/wp-content/uploads/2024/11/Full-Stack-Development.webp",
+    "category": "Development"
+  },
+  {
+    "id": 7,
+    "title": "UI/UX Design Fundamentals",
+    "instructor": "Anna White",
+    "duration": "10 hours",
+    "rating": 4.4,
+    "level": "Beginner",
+    "description": "Learn the basics of user interface and user experience design.",
+    "image": "https://locusit.com/wp-content/uploads/2024/09/1680181974410.png",
+    "category": "Design"
+  },
+  {
+    "id": 8,
+    "title": "Machine Learning Basics",
+    "instructor": "Robert Johnson",
+    "duration": "16 hours",
+    "rating": 4.6,
+    "level": "Intermediate",
+    "description": "Understand core ML concepts and build simple models.",
+    "image": "https://www.guru99.com/images/tensorflow/082918_1102_WhatisMachi5.png",
+    "category": "AI"
+  },
+  {
+    "id": 9,
+    "title": "Data Structures & Algorithms",
+    "instructor": "Kevin Martin",
+    "duration": "25 hours",
+    "rating": 4.9,
+    "level": "Advanced",
+    "description": "Master DSA concepts for coding interviews.",
+    "image": "https://appsbd.com/wp-content/uploads/2021/09/data-structures-and-algorithms.jpg",
+    "category": "Programming"
+  },
+  {
+    "id": 10,
+    "title": "Next.js Crash Course",
+    "instructor": "Laura Wilson",
+    "duration": "8 hours",
+    "rating": 4.5,
+    "level": "Beginner",
+    "description": "Learn server-side rendering and static sites with Next.js.",
+    "image": "https://i.ytimg.com/vi/EcsZr_jbwas/maxresdefault.jpg",
+    "category": "Development"
+  },
+  {
+    "id": 11,
+    "title": "Cybersecurity Essentials",
+    "instructor": "Daniel Clark",
+    "duration": "13 hours",
+    "rating": 4.3,
+    "level": "Beginner",
+    "description": "Protect systems and understand security fundamentals.",
+    "image": "https://asktraining.com.sg/wp-content/uploads/2024/04/Cybersecurity-Essentials-Course-Header.png",
+    "category": "Security"
+  },
+  {
+    "id": 12,
+    "title": "Flutter App Development",
+    "instructor": "Sophia Turner",
+    "duration": "17 hours",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "description": "Build cross-platform mobile apps using Flutter.",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*u70S_HwUu2v4tGn5V0K_7A.png",
+    "category": "Mobile"
+  },
+  {
+    "id": 13,
+    "title": "Git & GitHub Masterclass",
+    "instructor": "James Anderson",
+    "duration": "6 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Learn version control and collaboration using Git.",
+    "image": "https://i.ytimg.com/vi/xvJby5ciTdw/maxresdefault.jpg",
+    "category": "Tools"
+  }
+]
