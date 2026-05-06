@@ -42,7 +42,6 @@ export default function Banner() {
             backgroundImage: `url(${slide.bg})`,
           }}
         >
-          {/* Overlay */}
           <div className="w-full h-full bg-black/60 flex items-center justify-center text-center px-4">
             <div className="text-white max-w-2xl">
               <h1 className="text-3xl md:text-5xl font-bold mb-4">
@@ -63,7 +62,6 @@ export default function Banner() {
         </div>
       ))}
 
-      {/* Indicators */}
       <div className="absolute bottom-5 left-1/2 transform -translate-x-1/2 flex gap-2">
         {slides.map((_, i) => (
           <div
