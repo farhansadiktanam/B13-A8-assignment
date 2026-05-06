@@ -1,8 +1,18 @@
 "use client";
-import { Button } from "@heroui/react";
+import { authClient } from "@/lib/auth-client";
+import { Avatar, Button } from "@heroui/react";
+import Image from "next/image";
 import Link from "next/link";
 
 const Navbar = () => {
+  const userData = authClient.useSession();
+  const user = userData.data?.user;
+  console.log(user);
+
+  const handleSignOut = async () => {
+    await authClient.signOut();
+  };
+
   return (
     <div className="border-b shadow-md px-2 ">
       <nav className=" flex justify-between items-center  py-3 max-w-6xl mx-auto w-full">
@@ -26,18 +36,38 @@ const Navbar = () => {
         </ul>
 
         <div className="flex gap-4">
-          <ul className="flex gap-2 items-center  text-sm">
-            <li>
-              <Button variant="primary">
-                <Link href={"/signup"}>SignUp</Link>
+          {!user && (
+            <ul className="flex gap-2 items-center  text-sm">
+              <li>
+                <Button variant="primary">
+                  <Link href={"/signup"}>SignUp</Link>
+                </Button>
+              </li>
+              <li>
+                <Button variant="secondary">
+                  <Link href={"/signin"}>SignIn</Link>
+                </Button>
+              </li>
+            </ul>
+          )}
+
+          {user && (
+            <div className="flex gap-2 items-center">
+              <Avatar>
+                <Avatar.Image
+                  alt="John Doe"
+                  src={user?.image}
+                  referrerPolicy="no-referrer"
+                />
+                <Avatar.Fallback>
+                  {user?.name.slice(0, 2).toUpperCase()}
+                </Avatar.Fallback>
+              </Avatar>
+              <Button size="sm" variant="danger" onClick={handleSignOut}>
+                Sign Out
               </Button>
-            </li>
-            <li>
-              <Button variant="secondary">
-                <Link href={"/signin"}>SignIn</Link>
-              </Button>
-            </li>
-          </ul>
+            </div>
+          )}
         </div>
       </nav>
     </div>
