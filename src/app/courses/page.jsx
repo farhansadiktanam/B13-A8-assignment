@@ -4,7 +4,6 @@ import React from "react";
 const AllCourses = async () => {
   const res = await fetch("https://b13-a8-assignment.vercel.app/data.json");
   const skills = await res.json();
-  console.log(skills);
 
   return (
     <div className="min-h-[60vh] my-5">

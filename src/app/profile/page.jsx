@@ -3,12 +3,13 @@
 import { UpdateUserProfile } from "@/components/UpdateUserProfile";
 import { authClient } from "@/lib/auth-client";
 import { Avatar, Button, Card } from "@heroui/react";
+import { redirect } from "next/navigation";
 import React from "react";
 
-const Profile = () => {
+const ProfilePage = () => {
   const userData = authClient.useSession();
   const user = userData.data?.user;
-  console.log(user);
+
   return (
     <div className="flex justify-center items-center py-10 min-h-[55vh]">
       <Card className="w-full max-w-sm p-6 flex flex-col items-center text-center shadow-md rounded-2xl">
@@ -37,4 +38,4 @@ const Profile = () => {
   );
 };
 
-export default Profile;
+export default ProfilePage;
