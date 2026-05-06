@@ -2,6 +2,7 @@ import Banner from "@/components/Banner";
 import LearningTips from "@/components/LearningTips";
 import PopularCourses from "@/components/PopularCourses";
 import TopInstructors from "@/components/TopInstructor";
+import { ToastContainer } from "react-toastify";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <PopularCourses />
       <LearningTips />
       <TopInstructors />
+      <ToastContainer />
     </div>
   );
 }

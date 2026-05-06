@@ -12,6 +12,7 @@ import {
   TextField,
 } from "@heroui/react";
 import { useRouter } from "next/navigation";
+import { toast } from "react-toastify";
 
 export default function SignUpPage() {
   const router = useRouter();
@@ -35,12 +36,13 @@ export default function SignUpPage() {
       router.push("/");
     }
 
+    console.log(data, error);
     if (error) {
-      alert(error.message);
+      toast.error(error.message);
     }
 
     if (data) {
-      alert("Sign Up successfully...");
+      toast.success("Sign Up successfully...");
     }
   };
 
