@@ -29,12 +29,12 @@ const SkillCards = ({ skill }) => {
         {/* Rating */}
         <div className="flex items-center gap-1 text-orange-400">
           <FaStar />
-          <span className="text-sm text-gray-600">4.8</span>
+          <span className="text-sm text-gray-600">{skill.rating}</span>
         </div>
 
         {/* Button */}
         <Button className="mt-3 w-full" color="primary">
-          <Link href={"/"}>View Details</Link>
+          <Link href={`/courses/${skill.id}`}>View Details</Link>
         </Button>
       </div>
     </Card>
